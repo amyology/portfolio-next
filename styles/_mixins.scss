@@ -1,0 +1,57 @@
+@import "bulma/sass/utilities/mixins";
+
+// Variables
+$transition-duration: 0.5s;
+
+@mixin gradient-link {
+    background-color:#AD1457;
+    background-image: linear-gradient(90deg, #FFCCBC, #AD1457);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    text-fill-color: transparent;
+    -webkit-text-fill-color: transparent;
+    -moz-text-fill-color: transparent;
+}
+
+@mixin gradient-title {
+    background-color:#F48FB1;
+    background-image: linear-gradient(90deg, #FFCCBC, #F48FB1);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    text-fill-color: transparent;
+    -webkit-text-fill-color: transparent;
+    -moz-text-fill-color: transparent;
+}
+
+@mixin gradient-text {
+    background-color:#E91E63;
+    background-image: linear-gradient(90deg, #EF9A9A, #E91E63);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    text-fill-color: transparent;
+    -webkit-text-fill-color: transparent;
+    -moz-text-fill-color: transparent;
+}
+
+@mixin linkAnimation {
+    transition: transform $transition-duration;
+
+    &:hover {
+        transform: translateX(5px);
+        transition: transform $transition-duration;
+    }
+}
+
+@mixin fadeInAnimation {
+    animation: fadeIn ease 2s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+
+@keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+}

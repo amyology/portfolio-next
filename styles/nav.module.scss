@@ -1,0 +1,13 @@
+@import 'mixins';
+
+.navlinks {
+    @include until($desktop) {
+        padding-left: 18rem;
+    }
+
+    a {
+        display: block;
+        @include gradient-link;
+        @include linkAnimation;
+    }
+}

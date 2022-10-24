@@ -1,0 +1,5 @@
+@import 'mixins';
+
+.description span {
+    @include gradient-text;
+}

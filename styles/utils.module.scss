@@ -1,0 +1,18 @@
+@import 'mixins';
+
+.content {
+    margin: 1rem 1rem 0 0;
+    @include fadeInAnimation;
+
+    @include until($desktop) {
+        margin: 0 1rem 1rem 1rem;
+    }
+
+    @include from($desktop) {
+        padding: 0;
+    }
+}
+
+.image {
+    @include fadeInAnimation;
+}

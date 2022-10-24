@@ -1,0 +1,18 @@
+@import 'mixins';
+
+.main {
+  @include until($desktop) {
+    padding: 4rem 0;
+  }
+}
+
+.title {
+  margin: 0;
+  font-size: 2.5rem;
+  font-family: 'Mulish', sans-serif;
+  width: 125px;
+  @include gradient-title;
+  @include until($desktop) {
+    margin: 0 1rem;
+  }
+}

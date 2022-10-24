@@ -1,0 +1,9 @@
+@import 'mixins';
+
+.attribute {
+    @include gradient-text;
+}
+
+.description {
+    padding-right: 10rem;
+}
