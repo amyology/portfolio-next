@@ -4,9 +4,9 @@ import utilStyles from '../styles/utils.module.scss'
 
 export default function Resume() {
     return (
-        <div class="columns">
+        <div className={`columns`}>
             <div className={`column`}>
-                <Image src='/images/resume.jpg' width={580} height={530} className={utilStyles.image}/>
+                <Image src='/images/resume.jpg' width={580} height={530} className={utilStyles.image} alt='photo of a road in the desert and photo of a bird'/>
             </div>
 
             <div className={`${utilStyles.content} column`}>

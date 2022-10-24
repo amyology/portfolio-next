@@ -5,7 +5,7 @@ import styles from '../styles/layout.module.scss'
 
 export default function Layout({children}) {
     return (
-        <div className={styles.container} class="columns">
+        <div className={`columns`}>
             <Head>
                 <title>a.chan portfolio</title>
                 <meta name="description" content="a.chan portfolio" />
@@ -14,7 +14,7 @@ export default function Layout({children}) {
 
             <Nav className={styles.nav}/>
 
-            <main class="column is-four-fifths">
+            <main className={`column is-four-fifths`}>
                 <h1 className={styles.title}><Link href="/"><a>a.chan</a></Link></h1>
 
                 <div className={styles.content}>

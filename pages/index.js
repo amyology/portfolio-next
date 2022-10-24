@@ -4,9 +4,9 @@ import utilStyles from '../styles/utils.module.scss'
 
 export default function Home() {
   return (
-    <div className={styles.container} class="columns">
+    <div className={`columns`}>
         <div className={`column`}>
-            <Image src='/images/index.jpg' width={620} height={480} className={utilStyles.image}/>
+            <Image src='/images/index.jpg' width={620} height={480} className={utilStyles.image} alt='photo of clouds and photo of navy pier'/>
         </div>
         <div className={`${utilStyles.content} column`}>
             <h3>Hello</h3>
