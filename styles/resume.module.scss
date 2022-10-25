@@ -1,5 +1,10 @@
+@import 'mixins';
+
 .description {
-    padding-right: 9rem;
     margin-bottom: 0.5rem;
     text-align: justify;
+
+    @include from($desktop) {
+        padding-right: 9rem;
+    }
 }

@@ -5,7 +5,7 @@ import utilStyles from '../styles/utils.module.scss'
 export default function About() {
     return (
         <div className={`columns`}>
-            <div className={`column has-text-centered`}>
+            <div className={`column`}>
                 <Image src='/images/about.jpg' width={465} height={455} className={utilStyles.image} alt='photo of author sipping coffee and photo of giant wooden hand'/>
             </div>
 

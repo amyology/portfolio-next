@@ -5,5 +5,7 @@
 }
 
 .description {
-    padding-right: 10rem;
+    @include from($desktop) {
+        padding-right: 10rem;
+    }
 }
