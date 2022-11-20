@@ -12,12 +12,12 @@ export default function Resume() {
             <div className={`${utilStyles.content} column`}>
                 <h3>My work/experience</h3>
                 <p className={styles.description}>Tools I have used before in a professional or personal capacity:
-                    Salesforce B2C Commerce (Demandware),
+                    Salesforce B2C Commerce (Salesforce Commerce Cloud/Demandware),
                     Javascript,
                     Node.js,
                     Express.js,
                     Vue.js,
-                    AngularJS,
+                    Next.js,
                     jQuery,
                     Ruby,
                     Ruby on Rails,
@@ -30,8 +30,14 @@ export default function Resume() {
                     MySQL,
                     PostGreSQL,
                     Unity 3D,
+                    Vuforia,
+                    Bootstrap,
+                    Foundation,
+                    Bulma,
+                    Materialize,
                     Photoshop,
-                    Illustrator
+                    Illustrator,
+                    Affinity Photo
                 </p>
                 <a href="/other/AmyChanResume.pdf" target="_blank">Grab a copy of my resume.</a>
             </div>
